@@ -1,0 +1,520 @@
+body{
+    margin: 10px auto;
+    font-family: roboto;
+    font-size: 12px;
+}
+html, body, section,h1, h2, h3, p, blockquote, a, img, ol, ul, li, article, aside, figure, figcaption, footer, header, main, nav{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+header{
+    margin: 10px auto;
+    text-align: center;
+}
+main{
+    margin: 10px 188px;
+}
+footer{
+    width: auto;
+    clear: left;
+    min-height: 100px;
+    margin-top: 316px;
+}
+/* ---------------all use--------------- */
+header ul li{
+    list-style: none;
+    font-weight: bold;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+/* ---------------end all use--------------- */
+
+/* ---------------header--------------- */
+/* ---------------header-top--------------- */
+.header-top{
+    margin-bottom: 8px;
+    width: 973px;
+    margin: 10px auto;
+}
+.header-top ul li img{
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+.header-top ul li a{
+    padding: 0px 5px;
+}
+.header-top ul li a:hover{
+    color: orange;
+}
+.header-top ul li a img{
+    width: auto;
+    height: 20px;
+}
+.header-top .fl-left{
+    float: left;
+}
+.header-top .fl-right{
+    float: right;
+}
+/* ---------------end header-top--------------- */
+
+/* ---------------header-middle--------------- */
+.header-middle{
+    clear: both;
+    background-image: linear-gradient(to right, rgba(255, 41, 41, 0.945), rgb(173, 11, 11));
+}
+.header-middle{
+    padding: 5px 0%;
+}
+.header-middle ul li a{
+    font-weight: normal;
+    color: aliceblue;
+    padding: 0px 10px;
+}
+.header-middle ul li a:hover{
+    color: orange;
+}
+.logo-middle a img{
+    margin-right: 330px;
+    width: auto;
+    height: 40px;
+}
+.search{
+    border-radius: 3px;
+}
+.search input{
+    width: 203px;
+    height: 23px;
+}
+/* ---------------end header-middle--------------- */
+
+/* ---------------header-bottom--------------- */
+.logo-bottom a img{
+    margin-right: 2px;
+    width: auto;
+    height: 13px;
+    margin-bottom: 2px;
+}
+.header-bottom{
+    margin: 0px 188px;
+    font-size: 11px;
+}
+.header-bottom{
+    padding: 5px 0px 5px 0px;
+    border-bottom: 3px solid rgba(255, 41, 41, 0.945);
+}
+.header-bottom ul li{
+    padding: 0px 2px;
+}
+.header-bottom ul li a:hover{
+    color: orange;
+}
+/* ---------------end header-bottom--------------- */
+/* ---------------end header--------------- */
+
+/* ---------------main--------------- */
+main img{
+    padding-bottom: 5px;
+}
+
+/* ---------------main-top--------------- */
+.trending{
+    font-size: 12px;
+    padding-top: 2px;
+    margin-bottom: 14px;
+    height: 19px;
+}
+.trending ul li img{
+    width: 13px;
+    height: auto;
+    display: block;
+    padding-top: 4px;
+}
+.trending ul li{
+    list-style: none;
+    color: rgb(78, 78, 78);
+    float: left;
+    padding-right: 10px;
+}
+.trending a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    background-color: rgb(236, 232, 232);
+    border-radius: 2px;
+    padding: 4px 4px;
+    display: block;
+}
+.trending .middle{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.trending .middle img{
+    width: 13px;
+    height: auto;
+    padding-bottom: 0px;
+}
+.trending .right{
+    color: rgb(78, 78, 78);
+    float: right;
+}
+
+.main-artical{
+    clear: both;
+    width: 680px;
+    float: left;
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+.main-artical article{
+    float: left;
+    width: 490px;
+}
+.main-artical article img{
+    width: auto;
+    height: 300px;
+}
+.main-artical article p{
+    padding-top: 2px;
+    padding-right: 50px;
+}
+.main-artical article h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-artical .sidebar{
+    float: left;
+    width: 190px;
+    list-style: none;
+}
+.main-artical .sidebar ul li{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.main-artical .bottom ul li{
+    float: left;
+    width: 160px;
+    list-style: none;
+}
+.main-artical .bottom{
+    clear: left;
+    padding-top: 15px;
+}
+.main-artical .bottom ul li{
+    padding-right: 10px;
+}
+.main-artical .bottom ul li img{
+    width: 155px;
+    height: auto;
+}
+.main-artical .bottom ul li h2{
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.ads{
+    width: 293px;
+    float: left;
+    min-height: 400px;
+}
+.ads img{
+    width: 283px;
+    height: auto;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+/* ---------------end main-top--------------- */
+
+/* ---------------box-photo--------------- */
+.box-photo{
+    padding-top: 15px;
+    clear: left;
+    min-height: 270px;
+    background-color: rgb(196, 196, 196);
+}
+.box-photo ul li{
+    list-style: none;
+}
+.box-photo .text{
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.box-photo .text li{
+    float: left;
+    padding-right: 20px;
+}
+.box-photo .viewMore{
+    float: right;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin-right: 30px;
+}
+.box-photo .listNews{
+    clear: left;
+    padding: 10px 0px 0px 30px;
+}
+.box-photo .listNews li{
+    float: left;
+    width: 220px;
+    padding-right: 11px;
+}
+.box-photo .listNews li img{
+    width: 220px;
+    height: auto;
+}
+.box-photo .listNews li h3{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.box-photo .listNews .uppercase{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+/* ---------------end box-photo--------------- */
+
+/* ---------------main middle--------------- */
+.middle-ads{
+    margin-top: 10px;
+}
+.middle-ads img{
+    width: 973px;
+    height: auto;
+}
+/* ---------------end main middle--------------- */
+
+/* ---------------main bottom--------------- */
+.main-bottom{
+    margin-top: 10px;
+}
+.main-bottom ul li{
+    list-style: none;
+}
+.main-bottom .tieuDe{
+    border-left: 5px solid red;
+}
+.main-bottom .tieuDe h2 a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+/* ---------------tinMoi--------------- */
+.tinMoi{
+    float: left;
+    width: 459px;
+    border-right: 1px solid rgb(197, 197, 197);
+}
+.tinMoi ul{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.tinMoi ul li{
+    clear: left;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    float: left;
+    margin-bottom: 10px;
+}
+.tinMoi ul li p{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    padding-top: 3px;
+}
+.tinMoi ul li .link{
+    font-weight: bold;
+    list-style: circle;
+    color: rgb(78, 78, 78);
+}
+.tinMoi ul li .link::before{
+    content: "\2022";
+    color: rgb(11, 96, 253);
+    font-size: 15px;
+}
+.tinMoi ul img{
+    float:left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+/* ---------------end tinMoi--------------- */
+
+/* ---------------video--------------- */
+.video{
+    float: left;
+    width: 503px;
+    padding-left: 10px;
+}
+.video ul{
+    padding-top: 10px;
+}
+.video ul li{
+    float: left;
+    width: 241px;
+    height: 200px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.video ul li img{
+    width: 240px;
+    height: auto;
+}
+.video ul li h3{
+    font-size: 14px;
+}
+/* ---------------end video--------------- */
+
+/* ---------------mostView--------------- */
+.mostView{
+    clear: both;
+}
+.mostView .listView{
+    padding-top: 10px;
+}
+.mostView .listView li{
+    float: left;
+    width: 184px;
+    padding-right: 10px;
+}
+.mostView .listView li img{
+    width: 184px;
+    height: auto;
+}
+.mostView .listView .number{
+    float: left;
+    /* width: 34px; */
+    height: 20px;
+    margin-top: 5px;
+    background-color: #e32;
+    padding: 0px 7px 10px 7px;
+    font-weight: bold;
+    color: azure;
+    font-size: 26px;
+}
+.mostView .listView .category{
+    float: left;
+    width: 144px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.mostView .listView .title{
+    float: left;
+    width: 154px;
+    margin-top: -16px;
+    padding-left: 34px;
+    width: 144px;
+}
+.mostView .listView .content{
+    float: left;
+    width: 154px;
+    margin-top: 5px;
+    padding-left: 34px;
+    width: 144px;
+    font-size: 11px;
+    color: rgb(136, 133, 133);
+}
+.mostView .listView .time{
+    float: left;
+    width: 154px;
+    margin-top: 10px;
+    padding-left: 34px;
+    width: 144px;
+    font-size: 10px;
+    color: rgb(185, 185, 185);
+}
+/* ---------------end mostView--------------- */
+/* ---------------end main bottom--------------- */
+/* ---------------end main--------------- */
+
+/* ---------------footer--------------- */
+.footer-top{
+    height: 20px;
+    margin: auto;
+    background-color: #eee;
+    font-size: 13px;
+    color: #666;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+footer .setWidth{
+    width: 973px;
+    margin: 0 auto;
+}
+.footer-top .fl-left li {
+    float: left;
+    list-style: none;
+}
+.footer-top .fl-left li a img{
+    width: auto;
+    height: 20px;
+    padding-left: 12px;
+}
+.footer-top .fl-right li {
+    float: right;
+    list-style: none;
+    padding-left: 12px;
+    display: block;
+}
+.footer-top .fl-right li a img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer-middle{
+    background: #f4f4f4;
+    height: 120px;
+    margin: auto;
+}
+.footer-middle ul{
+    padding-left: 7px;
+}
+.footer-middle ul li{
+    float: left;
+    list-style: none;
+    width: 181px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 10px;
+}
+
+.footer-bottom{
+    height: 73px;
+    margin: auto;
+    background-color: #eee;
+    font-weight: bold;
+    padding-top: 16px;
+}
+.footer-bottom .fl-left{
+    padding-top: 10px;
+}
+.footer-bottom .fl-left a img{
+    height: 31px;
+    width: auto;
+    float: left;
+    padding-right: 20px;
+}
+.footer-bottom .fl-left p{
+    float: left;
+}
+.footer-bottom .fl-right a{
+    float: right;
+    text-decoration: none;
+    color: #666;
+}
+.footer-bottom .fl-right ul{
+    clear: right;
+}
+.footer-bottom .fl-right ul li{
+    float: right;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+/* ---------------end footer--------------- */
